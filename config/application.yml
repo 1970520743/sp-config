@@ -3,7 +3,7 @@ spring:
     name: order-service
     
 server:
-  port: 8203
+  port: 8110
     
 eureka:
   client:
