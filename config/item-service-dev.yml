@@ -18,5 +18,5 @@ spring:
   profiles: item2
   
 server:
-  port: 8002
+  port: 8001
   
