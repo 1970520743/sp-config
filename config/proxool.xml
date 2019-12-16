@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<something-else-entirely>
+	
+	<proxool>
+		<alias>proxool</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/ucap</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+			<property name="autoReconnect" value="true" />
+		</driver-properties>
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+	<proxool>
+		<alias>3E2592D5DD95DA5C339C0935F7E9DAA8</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/core</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+			<property name="autoReconnect" value="true" />
+		</driver-properties>
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+	<proxool>
+		<alias>02EA829BF2BA1F4FF0F49145A502C353</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/was</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+			<property name="autoReconnect" value="true" />
+		</driver-properties>
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+	<proxool>
+		<alias>E2EA829BF2BA1F4FF0F49145A502C354</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/was</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+			<property name="autoReconnect" value="true" />
+		</driver-properties>
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+	<proxool>
+		<alias>083ED686E25E40A0E8D1E6944E76C98D</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/bjxxk</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+			<property name="autoReconnect" value="true" />
+		</driver-properties>
+		<house-keeping-sleep-time>900000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+	
+	<proxool>
+		<alias>F663F1096F45C0E98DE9BA99E115E615</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/aas</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+			<property name="autoReconnect" value="true" />
+		</driver-properties>
+		<house-keeping-sleep-time>9000000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+	<!-- -->
+	<proxool>
+		<alias>D0FF410F6771208E84DAAA905EBA86AB</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/ais</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+		</driver-properties>
+		<house-keeping-sleep-time>9000000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+	
+
+	<proxool>
+		<alias>bjxxk_front</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/pre_bjxxk</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+		</driver-properties>
+		<house-keeping-sleep-time>9000000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+	</proxool>
+	 <proxool>
+		<alias>bjxxk_tzxm</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/qz_tzxm</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+		</driver-properties>
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+	</proxool>
+        <!--qz qianzhiji
+	<proxool>
+		<alias>qlsxk_sp_front</alias>
+		<driver-url>jdbc:mysql://10.27.0.9:3306/qz_qlsx</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="root"/>
+			<property name="autoReconnect" value="true" />
+		</driver-properties>
+		<house-keeping-sleep-time>900000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>10</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+ 
+	<proxool>
+		<alias>pre_sbk</alias>
+		<driver-url>jdbc:mysql://10.27.14.27:3306/sbk</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="linewell.2016"/>
+		</driver-properties>
+		<house-keeping-sleep-time>900000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>10</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>2000</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+	</proxool>-->
+	<proxool>
+		<alias>59F79D0C3F9EC77FD08D7AB8894EC0B5</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/tzxm</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+		<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+		</driver-properties>
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>10</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+	<!-- 		<proxool>
+		<alias>tzxm_front</alias>
+		<driver-url>jdbc:mysql://10.27.0.21:3306/qz_tzxm</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="useUnicode" value="true"/>
+			<property name="characterEncoding" value="utf-8"/>
+			<property name="user" value="root"/>
+			<property name="password" value="fdh724yg"/>
+		</driver-properties>
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>10</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>500</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+	</proxool>
+	
+	<proxool>
+		<alias>APP_SBJK</alias>
+		<driver-url>jdbc:mysql://59.202.58.105:3306/bjxxk</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="rdsadm_reader" />
+			<property name="password" value="123456" />
+		</driver-properties>
+		<house-keeping-sleep-time>9000000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>10</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>50</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+    	<test-after-use>true</test-after-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool> -->
+    <!-- 
+	<proxool>
+	    <alias>QZFRK</alias>
+	    <driver-url>jdbc:oracle:thin:@10.27.0.70:1521:orcl</driver-url>
+	    <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+	    <driver-properties>
+	    	<property name="user" value="sjqz_xzfwzx"/>
+	     	<property name="password" value="sjqz_xzfwzx123456"/>
+    	</driver-properties>
+     	<maximum-active-time>60000000</maximum-active-time>  
+    	<maximum-connection-count>500</maximum-connection-count>
+    	<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+  	</proxool>
+	 <proxool>
+		<alias>ga_was</alias>
+		<driver-url>jdbc:mysql://10.27.0.145:3306/was</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="LINEwell.2017"/>
+		</driver-properties>
+		<house-keeping-sleep-time>9000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>2000</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>-->
+	<!--<proxool>
+		<alias>69F79D0C3F9EC77FD08D7AB8894EC0B3</alias>
+		<driver-url>jdbc:mysql://125.65.82.167:3306/fileflow</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="yun521*v,"/>
+<property name="autoReconnect" value="true"/>
+		</driver-properties>
+		<house-keeping-sleep-time>60000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>200</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>2000</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>-->
+	<!--<proxool>
+		<alias>qzj_fg</alias>
+		<driver-url>jdbc:mysql://192.168.17.0:3306/fg_lhcj</driver-url>
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root"/>
+			<property name="password" value="123456"/>
+		</driver-properties>
+		<house-keeping-sleep-time>900000</house-keeping-sleep-time>
+		<simultaneous-build-throttle>10</simultaneous-build-throttle>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>2000</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>-->
+</something-else-entirely>
